@@ -199,7 +199,7 @@ def apply_app_style() -> None:
     )
 
 
-def page_hero(title: str, subtitle: str, eyebrow: str = "PropVista") -> None:
+def page_hero(title: str, subtitle: str, eyebrow: str = "Property Analytics") -> None:
     st.markdown(
         f"""
         <div class="hero">

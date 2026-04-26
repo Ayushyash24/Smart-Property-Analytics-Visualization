@@ -10,7 +10,7 @@ import seaborn as sns
 from app_style import app_footer, apply_app_style, page_hero
 
 
-st.set_page_config(page_title="PropVista Analytics", page_icon="🏠", layout="wide")
+st.set_page_config(page_title="Property Analytics", page_icon="🏠", layout="wide")
 apply_app_style()
 
 page_hero(
