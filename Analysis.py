@@ -19,7 +19,7 @@ page_hero(
 )
 
 # ── Load Data ───────────────────────────────────────────────
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASETS_DIR = os.path.join(BASE_DIR, "datasets")
 
 new_df = pd.read_csv(os.path.join(DATASETS_DIR, 'data_viz1.csv'))
